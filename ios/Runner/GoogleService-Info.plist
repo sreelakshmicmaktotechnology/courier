@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>467378593789-srffv6n993mierd6cactcroo1eoqu17l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.467378593789-srffv6n993mierd6cactcroo1eoqu17l</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>467378593789-69h2ht4nrq53l4n6bv5hqr5e4jnti5ih.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAHUDZXRF9-4xTj5taOOEJxiYAqNSHXv30</string>
+	<key>GCM_SENDER_ID</key>
+	<string>467378593789</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.maktotechnology.courier</string>
+	<key>PROJECT_ID</key>
+	<string>courier-pokxy8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>courier-pokxy8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:467378593789:ios:3386e5f189e255b1ec8394</string>
+</dict>
+</plist>

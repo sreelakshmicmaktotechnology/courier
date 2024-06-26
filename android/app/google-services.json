@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "467378593789",
+    "project_id": "courier-pokxy8",
+    "storage_bucket": "courier-pokxy8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467378593789:android:3386ffc26d05f5f9ec8394",
+        "android_client_info": {
+          "package_name": "com.maktotechnology.courier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467378593789-69h2ht4nrq53l4n6bv5hqr5e4jnti5ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maktotechnology.courier",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "467378593789-dhdjhlde438ft2naejs6gjifinbqmjej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maktotechnology.courier",
+            "certificate_hash": "a111032ecfec4f8ab8cd9eb0299d8ab30892c7b9"
+          }
+        },
+        {
+          "client_id": "467378593789-g4rig62pgcnj09er6c0pr2vgo2233198.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGcjE5VvycpVAgJ7Ck6sFShqAqg0A7fNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467378593789-g4rig62pgcnj09er6c0pr2vgo2233198.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "467378593789-srffv6n993mierd6cactcroo1eoqu17l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maktotechnology.courier"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
