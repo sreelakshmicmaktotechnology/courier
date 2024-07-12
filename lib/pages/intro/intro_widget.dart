@@ -42,7 +42,7 @@ class _IntroWidgetState extends State<IntroWidget> {
         onWillPop: () async => false,
         child: Scaffold(
           key: scaffoldKey,
-          backgroundColor: const Color(0xFFA0DDFF),
+          backgroundColor: const Color(0xFFFFA800),
           body: SafeArea(
             top: true,
             child: SizedBox(
@@ -55,7 +55,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
-                        'assets/images/vecteezy_delivery-man-vector_228369_1.png',
+                        'assets/images/1215597_61_1.png',
                         width: double.infinity,
                         height: 362.0,
                         fit: BoxFit.contain,
@@ -88,42 +88,6 @@ class _IntroWidgetState extends State<IntroWidget> {
                             ),
                           ),
                           Align(
-                            alignment: const AlignmentDirectional(-0.96, -1.29),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: Image.network(
-                                'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/0r7w1ovonou5/Rectangle_12.png',
-                                width: 300.0,
-                                height: 122.0,
-                                fit: BoxFit.none,
-                              ),
-                            ),
-                          ),
-                          Align(
-                            alignment: const AlignmentDirectional(-0.22, -1.43),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: Image.network(
-                                'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                                width: 300.0,
-                                height: 141.0,
-                                fit: BoxFit.none,
-                              ),
-                            ),
-                          ),
-                          Align(
-                            alignment: const AlignmentDirectional(0.54, -1.43),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: Image.network(
-                                'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                                width: 300.0,
-                                height: 141.0,
-                                fit: BoxFit.none,
-                              ),
-                            ),
-                          ),
-                          Align(
                             alignment: const AlignmentDirectional(-0.05, 0.51),
                             child: FFButtonWidget(
                               onPressed: () async {
@@ -146,7 +110,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                                     24.0, 0.0, 24.0, 0.0),
                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: const Color(0xFF44AEDD),
+                                color: const Color(0xFF183835),
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleSmall
                                     .override(
@@ -160,6 +124,42 @@ class _IntroWidgetState extends State<IntroWidget> {
                                   width: 1.0,
                                 ),
                                 borderRadius: BorderRadius.circular(6.0),
+                              ),
+                            ),
+                          ),
+                          Align(
+                            alignment: const AlignmentDirectional(-0.02, -0.86),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: Image.asset(
+                                'assets/images/Rectangle_14.png',
+                                width: 22.0,
+                                height: 8.0,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Align(
+                            alignment: const AlignmentDirectional(-0.2, -0.86),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: Image.asset(
+                                'assets/images/Rectangle_12.png',
+                                width: 22.0,
+                                height: 8.0,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Align(
+                            alignment: const AlignmentDirectional(0.16, -0.86),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: Image.asset(
+                                'assets/images/Rectangle_14.png',
+                                width: 22.0,
+                                height: 8.0,
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ),

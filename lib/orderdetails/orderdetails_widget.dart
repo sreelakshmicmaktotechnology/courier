@@ -146,6 +146,7 @@ class _OrderdetailsWidgetState extends State<OrderdetailsWidget> {
                                 }
                                 List<OrderRecord> textFieldOrderRecordList =
                                     snapshot.data!;
+
                                 // Return an empty Container when the item does not exist.
                                 if (snapshot.data!.isEmpty) {
                                   return Container();
@@ -255,6 +256,7 @@ class _OrderdetailsWidgetState extends State<OrderdetailsWidget> {
                               }
                               List<NumberRecord> textFieldNumberRecordList =
                                   snapshot.data!;
+
                               // Return an empty Container when the item does not exist.
                               if (snapshot.data!.isEmpty) {
                                 return Container();
@@ -360,6 +362,7 @@ class _OrderdetailsWidgetState extends State<OrderdetailsWidget> {
                                 }
                                 List<NumberRecord> textFieldNumberRecordList =
                                     snapshot.data!;
+
                                 // Return an empty Container when the item does not exist.
                                 if (snapshot.data!.isEmpty) {
                                   return Container();
@@ -462,6 +465,7 @@ class _OrderdetailsWidgetState extends State<OrderdetailsWidget> {
                                   }
                                   List<OrderRecord> listViewOrderRecordList =
                                       snapshot.data!;
+
                                   return ListView.builder(
                                     padding: EdgeInsets.zero,
                                     scrollDirection: Axis.vertical,

@@ -153,6 +153,7 @@ class _MyaddressWidgetState extends State<MyaddressWidget> {
                             }
                             List<NumberRecord> textNumberRecordList =
                                 snapshot.data!;
+
                             // Return an empty Container when the item does not exist.
                             if (snapshot.data!.isEmpty) {
                               return Container();

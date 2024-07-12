@@ -75,6 +75,7 @@ class _Order01WidgetState extends State<Order01Widget> {
             );
           }
           List<NumberRecord> order01NumberRecordList = snapshot.data!;
+
           // Return an empty Container when the item does not exist.
           if (snapshot.data!.isEmpty) {
             return Container();

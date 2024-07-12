@@ -488,7 +488,7 @@ class _NewaddressWidgetState extends State<NewaddressWidget> {
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: const Color(0xFF8B7DF0),
+                            color: const Color(0xFFFFA800),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -522,7 +522,7 @@ class _NewaddressWidgetState extends State<NewaddressWidget> {
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: const Color(0xFF8B7DF0),
+                            color: const Color(0xFFFFA800),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -564,7 +564,7 @@ class _NewaddressWidgetState extends State<NewaddressWidget> {
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: const Color(0xFF8B7DF0),
+                            color: const Color(0xFFFFA800),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -598,7 +598,7 @@ class _NewaddressWidgetState extends State<NewaddressWidget> {
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: const Color(0xFF8B7DF0),
+                            color: const Color(0xFFFFA800),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -646,7 +646,7 @@ class _NewaddressWidgetState extends State<NewaddressWidget> {
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: const Color(0xFF39C2EF),
+                            color: const Color(0xFFFFA800),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(

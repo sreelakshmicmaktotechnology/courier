@@ -28,7 +28,7 @@ class FFAppState extends ChangeNotifier {
     _Phonenumber = value;
   }
 
-  LatLng? _location;
+  LatLng? _location = const LatLng(25.2048493, 55.2707828);
   LatLng? get location => _location;
   set location(LatLng? value) {
     _location = value;

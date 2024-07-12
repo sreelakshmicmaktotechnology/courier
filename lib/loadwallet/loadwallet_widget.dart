@@ -69,7 +69,9 @@ class _LoadwalletWidgetState extends State<LoadwalletWidget> {
                 ),
               );
             }
+
             final columnNumberRecord = snapshot.data!;
+
             return Column(
               mainAxisSize: MainAxisSize.max,
               children: [
@@ -129,6 +131,7 @@ class _LoadwalletWidgetState extends State<LoadwalletWidget> {
                                 }
                                 List<NumberRecord> textFieldNumberRecordList =
                                     snapshot.data!;
+
                                 // Return an empty Container when the item does not exist.
                                 if (snapshot.data!.isEmpty) {
                                   return Container();

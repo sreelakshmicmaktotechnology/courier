@@ -591,7 +591,8 @@ class _Order02WidgetState extends State<Order02Widget> {
                                           onPressed: () async {
                                             await widget.userRef!
                                                 .update(createNumberRecordData(
-                                              pickuplocation: widget.pickuploca,
+                                              pickuplocation:
+                                                  widget.pickuploca,
                                             ));
 
                                             context.pushNamed('orderpage');

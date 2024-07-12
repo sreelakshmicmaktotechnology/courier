@@ -215,6 +215,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                       }
                                       List<NumberRecord> textNumberRecordList =
                                           snapshot.data!;
+
                                       // Return an empty Container when the item does not exist.
                                       if (snapshot.data!.isEmpty) {
                                         return Container();
@@ -270,6 +271,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                       }
                                       List<NumberRecord> textNumberRecordList =
                                           snapshot.data!;
+
                                       // Return an empty Container when the item does not exist.
                                       if (snapshot.data!.isEmpty) {
                                         return Container();
@@ -515,6 +517,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                       }
                                       List<NumberRecord> textNumberRecordList =
                                           snapshot.data!;
+
                                       // Return an empty Container when the item does not exist.
                                       if (snapshot.data!.isEmpty) {
                                         return Container();
@@ -648,6 +651,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                       }
                                       List<NumberRecord> textNumberRecordList =
                                           snapshot.data!;
+
                                       // Return an empty Container when the item does not exist.
                                       if (snapshot.data!.isEmpty) {
                                         return Container();
@@ -794,6 +798,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                       }
                                       List<NumberRecord> textNumberRecordList =
                                           snapshot.data!;
+
                                       // Return an empty Container when the item does not exist.
                                       if (snapshot.data!.isEmpty) {
                                         return Container();
@@ -951,6 +956,7 @@ class _EditprofileWidgetState extends State<EditprofileWidget> {
                                                     List<NumberRecord>
                                                         textNumberRecordList =
                                                         snapshot.data!;
+
                                                     // Return an empty Container when the item does not exist.
                                                     if (snapshot
                                                         .data!.isEmpty) {

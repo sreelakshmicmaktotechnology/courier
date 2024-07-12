@@ -49,11 +49,11 @@ class _HomePage01WidgetState extends State<HomePage01Widget> {
             child: Stack(
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(-1.02, -0.96),
+                  alignment: const AlignmentDirectional(-0.86, -0.95),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
-                      'assets/images/ic_launcher.png',
+                      'assets/images/Logo_-_default_style.png',
                       width: 143.0,
                       height: 78.0,
                       fit: BoxFit.contain,

@@ -70,7 +70,9 @@ class _EditemailidWidgetState extends State<EditemailidWidget> {
                   ),
                 );
               }
+
               final columnNumberRecord = snapshot.data!;
+
               return Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -287,7 +289,7 @@ class _EditemailidWidgetState extends State<EditemailidWidget> {
                                     0.0, 0.0, 0.0, 0.0),
                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: const Color(0xFF44AEDD),
+                                color: const Color(0xFFFFA800),
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(

@@ -40,7 +40,7 @@ class _Intro2WidgetState extends State<Intro2Widget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: const Color(0xFFA0DDFF),
+        backgroundColor: const Color(0xFFFFA800),
         body: SafeArea(
           top: true,
           child: Column(
@@ -57,7 +57,7 @@ class _Intro2WidgetState extends State<Intro2Widget> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(0.0),
                           child: Image.asset(
-                            'assets/images/vecteezy_delivery-flat-design_4530345_1.png',
+                            'assets/images/vecteezy_delivery-flat-design_4530345_1_(1).png',
                             width: double.infinity,
                             height: 316.0,
                             fit: BoxFit.contain,
@@ -91,37 +91,25 @@ class _Intro2WidgetState extends State<Intro2Widget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(-0.1, -1.27),
+                                alignment: const AlignmentDirectional(-0.03, -0.85),
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(8.0),
-                                  child: Image.network(
-                                    'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/0r7w1ovonou5/Rectangle_12.png',
-                                    width: 300.0,
-                                    height: 122.0,
+                                  child: Image.asset(
+                                    'assets/images/Rectangle_12.png',
+                                    width: 22.0,
+                                    height: 8.0,
                                     fit: BoxFit.none,
                                   ),
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(-1.01, -1.41),
+                                alignment: const AlignmentDirectional(0.17, -0.85),
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(8.0),
-                                  child: Image.network(
-                                    'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                                    width: 300.0,
-                                    height: 141.0,
-                                    fit: BoxFit.none,
-                                  ),
-                                ),
-                              ),
-                              Align(
-                                alignment: const AlignmentDirectional(0.77, -1.4),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                  child: Image.network(
-                                    'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                                    width: 300.0,
-                                    height: 141.0,
+                                  child: Image.asset(
+                                    'assets/images/Rectangle_14.png',
+                                    width: 22.0,
+                                    height: 8.0,
                                     fit: BoxFit.none,
                                   ),
                                 ),
@@ -149,7 +137,7 @@ class _Intro2WidgetState extends State<Intro2Widget> {
                                         24.0, 0.0, 24.0, 0.0),
                                     iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 0.0),
-                                    color: const Color(0xFF44AEDD),
+                                    color: const Color(0xFF183835),
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleSmall
                                         .override(
@@ -163,6 +151,18 @@ class _Intro2WidgetState extends State<Intro2Widget> {
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(6.0),
+                                  ),
+                                ),
+                              ),
+                              Align(
+                                alignment: const AlignmentDirectional(-0.21, -0.85),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(8.0),
+                                  child: Image.asset(
+                                    'assets/images/Rectangle_14.png',
+                                    width: 22.0,
+                                    height: 8.0,
+                                    fit: BoxFit.none,
                                   ),
                                 ),
                               ),

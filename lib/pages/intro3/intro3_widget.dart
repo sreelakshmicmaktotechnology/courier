@@ -40,7 +40,7 @@ class _Intro3WidgetState extends State<Intro3Widget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: const Color(0xFFA0DDFF),
+        backgroundColor: const Color(0xFFFFA800),
         body: SafeArea(
           top: true,
           child: SizedBox(
@@ -53,7 +53,7 @@ class _Intro3WidgetState extends State<Intro3Widget> {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
-                      'assets/images/vecteezy_covid-19-coronavirus-pandemic-delivery-service-hand-with_4420390_1.png',
+                      'assets/images/vecteezy_covid-19-coronavirus-pandemic-delivery-service-hand-with_4420390_1_(1).png',
                       width: double.infinity,
                       height: 362.0,
                       fit: BoxFit.contain,
@@ -86,37 +86,25 @@ class _Intro3WidgetState extends State<Intro3Widget> {
                           ),
                         ),
                         Align(
-                          alignment: const AlignmentDirectional(0.79, -1.25),
+                          alignment: const AlignmentDirectional(0.15, -0.86),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
-                            child: Image.network(
-                              'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/0r7w1ovonou5/Rectangle_12.png',
-                              width: 300.0,
-                              height: 122.0,
+                            child: Image.asset(
+                              'assets/images/Rectangle_12.png',
+                              width: 22.0,
+                              height: 8.0,
                               fit: BoxFit.none,
                             ),
                           ),
                         ),
                         Align(
-                          alignment: const AlignmentDirectional(-1.09, -1.39),
+                          alignment: const AlignmentDirectional(-0.03, -0.86),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
                             child: Image.network(
                               'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                              width: 300.0,
-                              height: 141.0,
-                              fit: BoxFit.none,
-                            ),
-                          ),
-                        ),
-                        Align(
-                          alignment: const AlignmentDirectional(-0.17, -1.38),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Image.network(
-                              'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/courier-pokxy8/assets/l68ov3hgu81s/Rectangle_14.png',
-                              width: 300.0,
-                              height: 141.0,
+                              width: 22.0,
+                              height: 8.0,
                               fit: BoxFit.none,
                             ),
                           ),
@@ -144,7 +132,7 @@ class _Intro3WidgetState extends State<Intro3Widget> {
                                   24.0, 0.0, 24.0, 0.0),
                               iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
-                              color: const Color(0xFF44AEDD),
+                              color: const Color(0xFF183835),
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleSmall
                                   .override(
@@ -162,6 +150,18 @@ class _Intro3WidgetState extends State<Intro3Widget> {
                           ),
                         ),
                       ],
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: const AlignmentDirectional(-0.24, 0.29),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8.0),
+                    child: Image.asset(
+                      'assets/images/Rectangle_14.png',
+                      width: 22.0,
+                      height: 8.0,
+                      fit: BoxFit.none,
                     ),
                   ),
                 ),

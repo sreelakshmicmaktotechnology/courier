@@ -54,13 +54,13 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
             child: Stack(
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(-0.86, -0.93),
+                  alignment: const AlignmentDirectional(-0.08, -0.71),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(0.0),
                     child: Image.asset(
-                      'assets/images/ic_launcher.png',
-                      width: 58.0,
-                      height: 79.0,
+                      'assets/images/Logo_-_default_style.png',
+                      width: 220.0,
+                      height: 41.0,
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -207,7 +207,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                             24.0, 0.0, 24.0, 0.0),
                         iconPadding:
                             const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: const Color(0xFF44AEDD),
+                        color: const Color(0xFFFFA800),
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
                                   fontFamily: 'Readex Pro',

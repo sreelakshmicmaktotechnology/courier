@@ -104,7 +104,9 @@ class _ChangegenderWidgetState extends State<ChangegenderWidget> {
                         ),
                       );
                     }
+
                     final columnNumberRecord = snapshot.data!;
+
                     return Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [

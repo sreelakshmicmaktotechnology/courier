@@ -55,7 +55,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                     width: double.infinity,
                     height: 309.0,
                     decoration: const BoxDecoration(
-                      color: Color(0xFFA0DDFF),
+                      color: Color(0xFFFFA800),
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(0.0),
                         bottomRight: Radius.circular(0.0),
